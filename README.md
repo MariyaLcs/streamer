@@ -5,5 +5,5 @@
 
  2. OAuth for JS Browser Apps
  - src="https://apis.google.com/js/api.js"
-
- 
+ - gapi.auth2.getAuthInstance().signIn()
+ - gapi.auth2.getAuthInstance().signOut()
