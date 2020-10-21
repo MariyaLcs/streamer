@@ -9,3 +9,5 @@
  - gapi.auth2.getAuthInstance().signOut()
 
  3. npm i redux react-redux
+ 4. npm i redux-form
+ - Wizard Form
