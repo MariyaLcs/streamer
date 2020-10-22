@@ -11,3 +11,5 @@
  3. npm i redux react-redux
  4. npm i redux-form
  - Wizard Form
+ 5. streamer-server...
+ 6. npm i axios redux-thunk
