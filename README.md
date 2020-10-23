@@ -13,3 +13,4 @@
  - Wizard Form
  5. streamer-server...
  6. npm i axios redux-thunk
+ 7. npm i lodash
