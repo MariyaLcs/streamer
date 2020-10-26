@@ -7,6 +7,7 @@ class StreamList extends React.Component {
   componentDidMount() {
     this.props.fetchStreams();
   }
+
   renderAdmin(stream) {
     if (stream.userId === this.props.currentUserId) {
       return (
@@ -17,8 +18,9 @@ class StreamList extends React.Component {
       );
     }
   }
+
   renderList() {
-    return this.props.streams.map((stream) => {
+    return this.props.streams.map(stream => {
       return (
         <div className="item" key={stream.id}>
           {this.renderAdmin(stream)}
@@ -32,9 +34,9 @@ class StreamList extends React.Component {
     });
   }
   renderCreate() {
-    if (this.props.isSingnedIn) {
+    if (this.props.isSignedIn) {
       return (
-        <div style={{ textAlign: "right" }}>
+        <div style={{ textAlign: 'right' }}>
           <Link to="/streams/new" className="ui button primary">
             Create Stream
           </Link>
@@ -42,7 +44,7 @@ class StreamList extends React.Component {
       );
     }
   }
-  render() {
+ render() {
     return (
       <div>
         <h2>Streams</h2>
@@ -56,8 +58,9 @@ const mapStateToProps = (state) => {
   return {
     streams: Object.values(state.streams),
     currentUserId: state.auth.userId,
-    isSingnedIn: state.auth.isSingnedIn,
+    isSignedIn: state.auth.isSignedIn
   };
 };
+
 
 export default connect(mapStateToProps, { fetchStreams })(StreamList);
