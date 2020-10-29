@@ -14,3 +14,10 @@
  5. streamer-server...
  6. npm i axios redux-thunk
  7. npm i lodash
+ 8. node-media-server 
+ - A Node.js implementation of RTMP/HTTP-FLV/WS-FLV/HLS/DASH Media Server
+ - rtmpserver
+ 9. https://obsproject.com/
+ - Free and open source software for video recording and live streaming.
+ 10. npm i flv
+ - This module offers Encoder and Decoder stream classes for working with FLV media files.
