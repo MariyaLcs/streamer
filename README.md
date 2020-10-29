@@ -21,3 +21,5 @@
  - Free and open source software for video recording and live streaming.
  10. npm install flv.js
  - An HTML5 Flash Video (FLV) Player written in pure JavaScript without Flash.
+ 11. Settings for OBS
+ - rtmp://localhost/live
