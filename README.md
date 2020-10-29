@@ -19,5 +19,5 @@
  - rtmpserver
  9. https://obsproject.com/
  - Free and open source software for video recording and live streaming.
- 10. npm i flv
- - This module offers Encoder and Decoder stream classes for working with FLV media files.
+ 10. npm install flv.js
+ - An HTML5 Flash Video (FLV) Player written in pure JavaScript without Flash.
